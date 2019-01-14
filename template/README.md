@@ -4,7 +4,7 @@
 # <title>
 
 [comment]: # (TODO: enum title of subject)
-### мгту. <semester> семестр. <course> курс
+### мгту. < semester > семестр. < course > курс
 
 ## table of contents
 
