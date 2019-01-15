@@ -5,7 +5,7 @@
 `second to last worst class in bmstu`
 
 [comment]: # (TODO: enum title of subject)
-### мгту. < semester > семестр. < course > курс
+### мгту. 3 семестр. 2 курс
 
 ## table of contents
 
