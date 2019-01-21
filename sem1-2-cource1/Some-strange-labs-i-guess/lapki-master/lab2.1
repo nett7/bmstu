@@ -1,0 +1,52 @@
+#include <iostream>
+using namespace std;
+
+struct Node {
+    int data;
+    Node* next;
+};
+
+int main(){
+    Node* node0 = new Node{0, nullptr};;
+    Node* node1 = new Node{0, nullptr};;
+    node0->next=node1;
+    Node* node2 = new Node{0, nullptr};;
+    node1->next=node2;
+    Node* node3 = new Node{0, nullptr};;
+    node2->next=node3;
+    Node* node4 = new Node{0, nullptr};
+    node3->next=node4;
+    Node* working = node0;
+    int i = 1;
+    while (working != nullptr) {
+        working->data = i;
+        i++;
+        working=working->next;
+    }
+    working = node0;
+    while (working != nullptr) {
+        cout << working->data<< endl;
+        working=working->next;
+    }
+   /* Node* node0 = new Node;
+    Node* node1 = new Node;
+    node0->next=node1;
+    Node* node2 = new Node;
+    node1->next=node2;
+    Node* node3 = new Node;
+    node2->next=node3;
+    Node* node4 = new Node;
+    node3->next=node4;
+   //cout << node0->data << " "<< node1->data <<" "<< node2->data<< " " << node3->data <<" "<<
+   //node4->data << endl;
+    Node* working = node0;
+    for (int i = 0; i<5; i++){
+        working->data = i +1;
+        working = working->next;
+    }
+    working = node0;
+    for (int i = 0; i<5; i++){
+        cout << working->data<< endl;
+        working = working->next;
+    }*/
+}

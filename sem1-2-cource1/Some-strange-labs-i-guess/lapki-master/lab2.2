@@ -1,0 +1,77 @@
+//
+//  main.cpp
+//  2.2
+//
+//  Created by Игорь on 16.02.18.
+//  Copyright © 2018 Игорь. All rights reserved.
+//
+
+
+#include <iostream>
+using namespace std;
+
+struct Node {
+    int data;
+    Node* next;
+};
+void inline yell_error();
+void insert(Node *first, int value);
+bool remove(Node *first, int value);
+void print(Node *first);
+
+
+int main() {
+    Node *node0 = new Node{0, nullptr};
+
+    
+    print(node0);
+    insert(node0, 1);
+    print(node0);
+    if (remove(node0, 1) == 1) {
+        cout << "успешно удален узел"<< endl;
+    }
+    print(node0);
+}
+void inline yell_error(){cout<<"error";}
+
+void insert(Node *first, int value){
+    //insetion to end of list
+    
+    if (first == nullptr) {
+        yell_error();
+        return;
+    }
+    Node *working = first;
+    while(working->next != nullptr){
+            working=working->next;
+    }
+    working->next = new Node{value, nullptr};
+}
+bool remove(Node *first, int value){
+    if (first == nullptr) {
+        yell_error();
+        return 0;
+    }
+    Node *working = first;
+    while (working != nullptr) {
+        if (working->next->data == value) {
+            delete working->next;
+            working->next = nullptr;
+            return 1;
+        }
+        working=working->next;
+    }
+    return 0;
+}
+
+void print(Node *first){
+    if (first == nullptr) {
+        yell_error();
+    }
+    Node *working = first;
+    while (working != nullptr) {
+        cout << working->data<< endl;
+        working=working->next;
+    }
+}
+
