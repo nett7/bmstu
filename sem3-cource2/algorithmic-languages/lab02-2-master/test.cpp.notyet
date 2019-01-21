@@ -1,0 +1,26 @@
+#include <ctime>
+#include "bypass.hpp"
+
+TEST_CASE("DIRECT BYPASS - POSITIVE TIME TEST") {
+    int arr_size = 32*2048;
+    int * arr = new int[arr_size];
+    dir_bypass(arr, arr_size);
+    clock_t t_start = clock();
+        for (int count = 0; count < 1000; count++) {
+          dir_bypass(arr, arr_size);
+        }
+    clock_t test_time = clock() - t_start
+    REQUIRE(test_time > 0);
+}
+
+TEST_CASE("REVERCE BYPASS - POSITIVE TIME TEST") {
+    int arr_size = 32*2048;
+    int * arr = new int[arr_size];
+    rev_bypass(arr, arr_size);
+    clock_t t_start = clock();
+        for (int count = 0; count < 1000; count++) {
+          rev_bypass(arr, arr_size);
+        }
+    clock_t test_time = clock() - t_start
+    REQUIRE(test_time > 0);
+}

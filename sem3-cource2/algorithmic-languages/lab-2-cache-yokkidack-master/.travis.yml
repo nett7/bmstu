@@ -1,0 +1,49 @@
+os: linux
+sudo: false
+language: cpp
+
+addons:
+  apt:
+    sources:
+    - ubuntu-toolchain-r-test
+    packages:
+    - g++-7
+    - lcov
+    - gcovr
+
+cache:
+  apt: true
+  directories:
+  - $HOME/.hunter
+
+env: CC_EVAL=gcc-7 CXX_EVAL=g++-7
+
+before_install:
+- export CXX=$CXX_EVAL
+- export CC=$CC_EVAL
+- pip install --user cpplint
+
+# CMAKE_EXE_LINKER need to bugfix: https://stackoverflow.com/questions/50024731/ld-unrecognized-option-push-state-no-as-needed
+jobs:
+  include:
+   # - name: "tests"
+   #   script:
+   #   - export CTEST_OUTPUT_ON_FAILURE=true
+   #   - ./tools/polly/bin/polly --reconfig --test --config-all Debug --fwd CMAKE_EXE_LINKER="-fuse-ld=gold"
+   #   # coverage logging
+   #   - ./tools/polly/bin/polly --reconfig --toolchain gcc-7-cxx17 --config-all Debug --test --fwd ENABLE_COVERAGE=yes
+   #   - ./tools/polly/bin/polly --reconfig --toolchain gcc-7-cxx17 --config-all Debug --target gcov
+   #   - gcovr -r  .
+    
+    - name: "checks"
+      script:
+      - files=`find . -name "*.cpp" -or -name "*.hpp" -or -name ".h" | grep -v "./tools/*"`
+      - filter=-build/c++11,-runtime/references,-whitespace/braces,-whitespace/indent,-whitespace/comments,-build/include_order
+      - echo $files | xargs cpplint --filter=$filter
+      # sanitaizer check
+      - ./tools/polly/bin/polly --reconfig --toolchain sanitize-address-cxx17 --config-all Debug --fwd CMAKE_EXE_LINKER="-fuse-ld=gold"
+      - ./tools/polly/bin/polly --reconfig --toolchain sanitize-leak-cxx17    --config-all Debug --fwd CMAKE_EXE_LINKER="-fuse-ld=gold"
+      - ./tools/polly/bin/polly --reconfig --toolchain sanitize-thread-cxx17  --config-all Debug --fwd CMAKE_EXE_LINKER="-fuse-ld=gold"
+
+notifications:
+  email: false

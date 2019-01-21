@@ -1,0 +1,24 @@
+-------dir tests:-------
+test 32k 52
+test 64k 123
+test 128k 216
+test 256k 440
+test 512k 876
+test 1024k 1757
+test 2048k 3566
+-------rev tests:-------
+test 32k 73
+test 64k 149
+test 128k 294
+test 256k 592
+test 512k 1210
+test 1024k 2424
+test 2048k 4951
+-------rnd tests:-------
+test 32k 83
+test 64k 187
+test 128k 246
+test 256k 546
+test 512k 1077
+test 1024k 2151
+test 2048k 4331
