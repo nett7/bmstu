@@ -1,10 +1,8 @@
 #### subject
 
-[comment]: # (TODO: enum title of subject)
-# <title>
+# Физика
 
-[comment]: # (TODO: enum title of subject)
-### мгту. < semester > семестр. < course > курс
+### мгту. 4 семестр. 2 курс
 
 ## table of contents
 
@@ -18,9 +16,6 @@
 [![top] Goto Top](#table-of-contents)
 
 ## reading list
-
-- [ ]
-- [ ]
 
 ### Основная литература (ОЛ)
 - [ ] 1. Мартинсон Л.К., Смирнов Е.В. Квантовая физика.– М.: Изд-во МГТУ им. Н.Э. Баумана, 2006, 2009. – 532 с.
