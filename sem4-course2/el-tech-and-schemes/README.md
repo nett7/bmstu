@@ -1,10 +1,10 @@
 #### subject
 
 [comment]: # (TODO: enum title of subject)
-# <title>
+# Электроника и схемотехника
 
 [comment]: # (TODO: enum title of subject)
-### мгту. < semester > семестр. < course > курс
+### мгту. 4 семестр. 2 курс
 
 ## table of contents
 
