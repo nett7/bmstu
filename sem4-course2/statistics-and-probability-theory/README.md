@@ -1,10 +1,9 @@
 #### subject
 
-[comment]: # (TODO: enum title of subject)
-# <title>
+# Теория вероятностей и математическая статистика
 
 [comment]: # (TODO: enum title of subject)
-### мгту. < semester > семестр. < course > курс
+### мгту. 4 семестр. 2 курс
 
 ## table of contents
 
@@ -19,8 +18,7 @@
 
 ## reading list
 
-- [ ]
-- [ ]
+- [ ] [fn12](http://fn.bmstu.ru/learning-materials-fs-1/educational-materials-fs-1/21-nuk-fn/fn-dep/high-math/learning/330-learning-materials-course2) 
 
 
 
