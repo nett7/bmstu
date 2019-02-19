@@ -13,17 +13,17 @@
 
 
 - `professional toolkit` (3 labs)
-- - `block1` cmd line hacks : history, aliases. multiplexer: tmux.
-- - `block2` CVS : git, ["git professional" book](https://git-scm.com/book/ru/v2), git-pro. ["git pro in russian"](https://habr.com/ru/post/150673/)
-- - `block3` : formatter, linters, checkers : cppcheck, etc.
+    - `block1` cmd line hacks : history, aliases. multiplexer: tmux.
+    - `block2` CVS : git, ["git professional" book](https://git-scm.com/book/ru/v2), git-pro. ["git pro in russian"](https://habr.com/ru/post/150673/)
+    - `block3` : formatter, linters, checkers : cppcheck, etc.
 
 
 - `design and specifications` (1 lab)
-- - documentation, specification
+    - documentation, specification
 
 
 - `project build automation systems` (4 labs)
-- - testing, building, packaging, vertion forming, sanitizers, building with polly
+    - testing, building, packaging, vertion forming, sanitizers, building with polly
 
 
 - `code review like a human` (1 lab)
@@ -33,12 +33,12 @@
 
 
 - `application deployment and management` (2 labs)
-- - Docker and command line interface
-- - running multi-container Docker applications
-- - security tacticks
+    - Docker and command line interface
+    - running multi-container Docker applications
+    - security tacticks
 
 - `local and remote debugging` (2 labs)
-- - gdb server
+    - gdb server
 
 ## Block 2 : professional development tools
 
