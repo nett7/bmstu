@@ -57,6 +57,8 @@ set -g @sidebar-tree-command 'tree -C'
 
 ## git extras
 
+[command list](https://github.com/tj/git-extras/blob/master/Commands.md#git-reauthor)
+
 `git setup` - quick init and commit
 
 `git summary` - 
