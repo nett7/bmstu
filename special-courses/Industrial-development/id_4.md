@@ -58,3 +58,18 @@ set -g @sidebar-tree-command 'tree -C'
 ## git extras
 
 `git setup` - quick init and commit
+
+`git summary` - 
+
+~~~
+➜ git summary                                                                                      
+Alias tip: g summary
+project  : timp
+repo age : 11 months
+active   : 6 days
+commits  : 33
+files    : 25
+authors  :
+    25  yokkidack    75.8%
+    8  Roshin Igor  24.2%
+~~~
