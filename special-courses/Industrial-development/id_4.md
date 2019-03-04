@@ -73,3 +73,14 @@ authors  :
     25  yokkidack    75.8%
     8  Roshin Igor  24.2%
 ~~~
+
+NOTE:
+
+~~~
+git summary does not show co-authors if they were added as co-authors in commit massage, even tho they│
+ appear as co-authors in github/insights/contributers;                                                │
+                                                                                                      │
+git summary shows authors as different, even tho they have identical names and e-mails; Author #1 comm│
+ited to repo in gitlab, Author #2 cloned repo into github and commited into it, Author #3 pulled repo,│
+ commeded into it and then pushed it into github; 
+~~~
