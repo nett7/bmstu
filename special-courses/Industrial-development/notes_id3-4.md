@@ -13,6 +13,19 @@ git setup -- creates git repo and makes commit
 git ignore <thing> -- adds to .gitignore <thing> (NOTE: git ignore c++ does not add to .gitignore c++ gitignore с++ template)
 
 git mv <what> <where> -- moves files
+
+git checkout -- CONTRIBUTING.md -- un checks file
+
+git fetch [remote-name] -- adds diffs from remote 
+
+git tag -- shows tags
+
+git tag -a <tag> -- adds tags
+
+git push origin --tags -- pushes tags
+
+git tag -a <tag> <%h> -- adds tag to %f
+
 ```
 
 ### agnoster
