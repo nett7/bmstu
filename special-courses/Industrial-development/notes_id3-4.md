@@ -11,6 +11,8 @@ gss (git show --short) -- nise command to show status in a pleasent way
 git setup -- creates git repo and makes commit
 
 git ignore <thing> -- adds to .gitignore <thing> (NOTE: git ignore c++ does not add to .gitignore c++ gitignore с++ template)
+
+git mv <what> <where> -- moves files
 ```
 
 ### agnoster
