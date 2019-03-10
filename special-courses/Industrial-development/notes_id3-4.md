@@ -8,7 +8,9 @@ It is possible that it is nessesery to state `antigen theme https://github.com/a
 ### some tmux goodies:
 
 ```
-C-& -- kill window
+C-& -- kill window (apperently this shit kills all tmux)
+C-c - closes tab
+
 ```
 
 [cheat list for tmux](https://gist.github.com/MohamedAlaa/2961058)
