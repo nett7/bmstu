@@ -7,6 +7,10 @@ It is possible that it is nessesery to state `antigen theme https://github.com/a
 
 ### some tmux goodies:
 
+```
+C-& -- kill window
+```
+
 [cheat list for tmux](https://gist.github.com/MohamedAlaa/2961058)
 
 Some picks:
