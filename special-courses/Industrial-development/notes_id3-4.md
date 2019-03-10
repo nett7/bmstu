@@ -1,3 +1,18 @@
+### git and git-extras
+
+```
+gss (git show --short) -- nise command to show status in a pleasent way
+    shows:
+>gss              
+  A  .gitignore -- this file is added
+  AM README.md  --  this file is added and modified
+  ?? CONTRIBUTING.md  -- this file is untracked
+
+git setup -- creates git repo and makes commit
+
+git ignore <thing> -- adds to .gitignore <thing> (NOTE: git ignore c++ does not add to .gitignore c++ gitignore с++ template)
+```
+
 ### agnoster
 
 [this is guide to nicer theme instalation](https://medium.com/@genealabs/agnoster-theme-on-os-x-391d60effaf6)
