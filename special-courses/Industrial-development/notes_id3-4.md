@@ -39,7 +39,7 @@ It is possible that it is nessesery to state `antigen theme https://github.com/a
 
 ```
 C-& -- kill window (apperently this shit kills all tmux)
-C-c - closes tab
+C-c - closes tab (no, it fucking doesn't, but it worked ones, im confused, do not use. does something strange)
 
 ```
 
