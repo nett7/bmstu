@@ -26,6 +26,8 @@ git push origin --tags -- pushes tags
 
 git tag -a <tag> <%h> -- adds tag to %f
 
+git merge <branch> -- merge <branch> with current branch
+
 ```
 
 ### agnoster
