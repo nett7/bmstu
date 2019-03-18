@@ -96,3 +96,13 @@ Based on boards. `backlog/in progress/peer review/testing/done`
 4. Agile '05
 
 ### Issue Trackers : JIRA
+
+`NOTE` `:` `Do Not Forget To Add Issue Tags To Commit`
+
+Tasks:
+1. Dev Tasks (Can be subdivided to smaller tasks)
+2. Bugfix (Usually can not be subdivided; often bug can be already solved, watch issue trackers history; bugs can be unreproducible)
+3. Self-defined task from user (Passage from testing to done can be shorter if CI is used)
+
+`NOTE` : In `In Progress` board can be only up to 2 tasks. It incentivizes programmer to finish tasks.
+
