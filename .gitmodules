@@ -1,0 +1,6 @@
+[submodule "sem3-cource2/algorithmic-languages/exam"]
+	path = sem3-cource2/algorithmic-languages/exam
+	url = https://github.com/yokkidack/exam
+[submodule "sem3-cource2/algorithmic-languages/ekz"]
+	path = sem3-cource2/algorithmic-languages/ekz
+	url = https://github.com/Kutyirov/ekz
