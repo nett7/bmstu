@@ -1,9 +1,0 @@
-[submodule "tools/polly"]
-	path = tools/polly
-	url = https://github.com/ruslo/polly
-[submodule "tools/gate"]
-	path = tools/gate
-	url = https://github.com/hunter-packages/gate.git
-[submodule "tools/codecov"]
-	path = tools/codecov
-	url = https://github.com/RWTH-HPC/CMake-codecov.git
