@@ -9,3 +9,7 @@
 [vagrant, habr](https://habr.com/ru/company/maxifier/blog/225305/)
 
 ## Project Build automation system
+
+[introduction to modern cmake](https://cliutils.gitlab.io/modern-cmake/)
+
+cmake makes `compile_commands.json` file
