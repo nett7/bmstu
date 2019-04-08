@@ -9,6 +9,7 @@
 [vagrant, habr](https://habr.com/ru/company/maxifier/blog/225305/)
 
 ## Project Build automation system
+## Cmake 1/2
 
 [introduction to modern cmake](https://cliutils.gitlab.io/modern-cmake/)
 
