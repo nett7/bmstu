@@ -2,10 +2,11 @@
 ## Cmake 2/2
 
 ### Config files v. find files
-
-`> cmake -DCMAKE_INSTALL_PREFIX=_install`
-`> cmake --build _builds`
-`> cmake --build _builds --target install`
+```
+    > cmake -DCMAKE_INSTALL_PREFIX=_install
+    > cmake --build _builds
+    > cmake --build _builds --target install
+```
 
 `Config` files stores kv target - path (*configs can differentiate between release and debug version*)
 
@@ -32,3 +33,15 @@ Additional labels for pre-release and build metadata are available as extensions
 
 
 `> cpack -G DEB`
+
+### dpkg
+
+### polly.py
+
+polly allows adding sanitizers; allows collecting all required dependencies;
+
+
+## Task
+
+- Look for packages
+- Look for info
