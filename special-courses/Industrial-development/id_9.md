@@ -45,3 +45,7 @@ polly allows adding sanitizers; allows collecting all required dependencies;
 
 - Look for packages
 - Look for info
+
+## Outacks
+
+Big IT companies use their own build systems. For example Yandex uses yamake. 
