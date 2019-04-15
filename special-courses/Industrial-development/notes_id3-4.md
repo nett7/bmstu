@@ -16,7 +16,7 @@ git mv <what> <where> -- moves files
 
 git checkout -- CONTRIBUTING.md -- un checks file
 
-git fetch [remote-name] -- adds diffs from remote 
+git fetch [remote-name] -- adds diffs from remote
 
 git tag -- shows tags
 
@@ -29,6 +29,8 @@ git tag -a <tag> <%h> -- adds tag to %f
 git merge <branch> -- merge <branch> with current branch
 
 git branch -d <branch> -- check for errors and delete <branch>
+
+git checkout -b == gcb
 
 ```
 
@@ -63,4 +65,3 @@ PREFIX : resize-pane -R 20 (Resizes the current pane right by 20 cells)
 PREFIX : resize-pane -t 2 20 (Resizes the pane with the id of 2 down by 20 cells)
 PREFIX : resize-pane -t -L 20 (Resizes the pane with the id of 2 left by 20 cells)
 ~~~
-
