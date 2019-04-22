@@ -4,5 +4,11 @@
 - [ ] ["git pro in russian"](https://habr.com/ru/post/150673/)
 - [ ] [`awesome`](https://github.com/sindresorhus/awesome)
 
-additional : 
+additional :
 - [ ] [Переход с bash на zsh](https://habr.com/ru/post/326580/)
+
+
+## l#11
+
+- [ ] [`interactive rebase`](https://git-scm.com/book/ru/v1/Инструменты-Git-Перезапись-истории)
+- [ ] [`cgold`]
