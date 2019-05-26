@@ -1,6 +1,6 @@
-a = 10;
+a = 6; % 1-10
 m = 9.1 * 10^(-31);
-U = 10;
+U = 10; % 3-10
 h = 4.135667662*10^(-15);
 
 E0 = U:0.01:10000;
@@ -24,9 +24,16 @@ y2=sqrt(2*m*(U-E2)/h^2);
 y2=[y2 -y2];
 L2=cosh(x2.*a./2).*cosh(y2.*a./2)+0.5.*(x2./y2+y2./x2).*sinh(x2.*a./2).*sinh(y2.*a./2);
 
+x = [-10 90];
+y = [-1 -1];
+y3 = [1 1];
 plot([E0 E0], L0, [E1 E1], L1, [E2 E2], L2, 'Linewidth', 2);
 grid on;
-axis([-20, 100, -32, 5]);
-title('L(E) при a = 10 А, U = 10 В');
+hold on;
+plot (x, y, '--', x, y3, '--');
+axis([-10, 50, -40, 40]);
+str = sprintf('L(E) :  a = %d A, U = %d eB', a,U);
+title(str);
 xlabel('E');
 ylabel('L');
+hold off;
