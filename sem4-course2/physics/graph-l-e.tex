@@ -1,0 +1,57 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[latin1]{inputenc}
+\graphicspath{ {./images/} }
+
+\title{Graph L(E)}
+\author{Igor Roshin}
+\date{26/05/19}
+
+\begin{document}
+\maketitle
+\begin{itemize}
+  \item[-] {m = 9.1 * 10^{-31}}
+  
+  \item[-] {a = 1-10 \si{\angstrom}}
+  \item[-] {U = 3-10}
+  \item[-] { \hbar = 6.6*10^{-34}}
+  
+\end{itemize}
+\begin{itemize}
+  \item[-] E-U\textgreater0, E\textgreater0  \begin{cases}
+  \ae_1 = \frac{2mE}{\hbar^2}\\
+  \ae_2 = \frac{2m(E-U)}{\hbar^2}\\
+  2L  =  2 \cos{\frac{ \ae^2_1 * a} {2} }\cos{\frac{ \ae^2_2 * a} {2} } - (\frac{\ae_1}{\ae_2} + \frac{\ae_2}{\ae_1})\sin\ae_1\frac{a}{2}\sin\ae_2\frac{a}{2}
+  \end{cases}
+  
+  \item[-] E-U\textless0, E\textgreater0  \begin{cases}
+  \ae_1 = \frac{2mE}{\hbar^2}\\
+  \ae_2 = \frac{2m(U-E)}{\hbar^2}\\
+  2L  =  2 \cos{\frac{ \ae^2_1 * a} {2} }\cosh{\frac{ \ae^2_2 * a} {2} } - (\frac{\ae_1}{\ae_2} + \frac{\ae_2}{\ae_1})\sin\ae_1\frac{a}{2}\sinh\ae_2\frac{a}{2}
+  \end{cases}
+  
+  \item[-] E-U\textless0, E\textless0  \begin{cases}
+  \ae_1 = -\frac{2mE}{\hbar^2}\\
+  \ae_2 = \frac{2m(U-E)}{\hbar^2}\\
+  2L  =  2 \cosh{\frac{ \ae^2_1 * a} {2} }\cosh{\frac{ \ae^2_2 * a} {2} } - (\frac{\ae_1}{\ae_2} + \frac{\ae_2}{\ae_1})\sinh\ae_1\frac{a}{2}\sinh\ae_2\frac{a}{2}
+  \end{cases}
+\end{itemize}
+\begin{figure}
+\includegraphics[width=1\textwidth]{images/1-3.jpg}
+\caption{a = 1A, U = 3eB}
+\end{figure}
+\begin{figure}
+\includegraphics[width=1\textwidth]{images/5-5-100.jpg}
+\caption{a = 5A, U = 5eB}
+\end{figure}
+\begin{figure}
+\includegraphics[width=1\textwidth]{images/10-10-1000.jpg}
+\caption{a = 10A, U = 10eB}
+\end{figure}
+\begin{figure}
+\includegraphics[width=1\textwidth]{images/10-10-100.jpg}
+\caption{a = 10A, U = 10eB}
+\end{figure}
+\end{document}
