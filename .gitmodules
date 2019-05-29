@@ -4,3 +4,6 @@
 [submodule "sem3-cource2/algorithmic-languages/ekz"]
 	path = sem3-cource2/algorithmic-languages/ekz
 	url = https://github.com/Kutyirov/ekz
+[submodule "sem4-course2/mat-logic-and-algorithm-theory/exam"]
+	path = sem4-course2/mat-logic-and-algorithm-theory/exam
+	url = https://github.com/yokkidack/mat_logic_exam
