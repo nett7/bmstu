@@ -19,6 +19,32 @@ https://habrahabr.ru/post/337036/
 
 Реализовать алгоритм быстрого возведения программно, протестировать его.
 
+```cpp
+#include <iostream>
+
+long int _power_ (long int base, long int power) {
+    if (power == 0)
+        return 1;
+    if (power % 2 == 0)
+    {
+        long int temp = _power_(base, power/2);
+        return temp*temp;
+    }
+    else
+    {
+        long int temp = _power_(base, power/2);
+        return temp*temp*base;
+    }
+}
+
+int main() {
+    long int a,b;
+    std::cin >> a >> b;
+    std::cout << _power_(a,b);
+}
+
+```
+
 ## 2 
 
 Написать алгоритм получения N-того числа Фибоначчи за log(n).
