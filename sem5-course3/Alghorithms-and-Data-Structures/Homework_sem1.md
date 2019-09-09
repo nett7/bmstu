@@ -34,3 +34,23 @@ https://habrahabr.ru/post/337036/
 [link](https://habr.com/ru/post/428552/)
 
 O(n + log(n))
+
+## 4 
+
+a) O(n^n + n! + e^n + n^e)
+
+n = 2 
+
+2^2 + 2! + e^2 + 2^e = 4 + 2 + 6,5 + 7,3
+
+n = 10 
+
+... = 10b + 3,6m + 22k + 522
+
+=> O(n^n + n! + e^n + n^e) = O(n^n)
+
+b) O(x^2*e^n + ye^k + n + k^n) от n,y,k
+
+## 5 Написать алгоритм проверки числа на простоту.
+
+
