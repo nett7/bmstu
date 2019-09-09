@@ -79,4 +79,20 @@ b) O(x^2*e^n + ye^k + n + k^n) от n,y,k
 
 ## 5 Написать алгоритм проверки числа на простоту.
 
+```cpp
+#include <iostream>
+#include <math.h>
+
+bool is_prime(int a){
+    for (auto i=2; i <= floor(sqrt(a)); i++)
+        if (a % i == 0) return false;
+    return true;
+}
+
+int main() {
+    int susp;
+    std::cin >> susp;
+    std::cout << is_prime(susp);
+}
+```
 
