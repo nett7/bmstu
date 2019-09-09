@@ -33,3 +33,4 @@ https://habrahabr.ru/post/337036/
 
 [link](https://habr.com/ru/post/428552/)
 
+O(n + log(n))
