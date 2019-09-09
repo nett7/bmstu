@@ -15,6 +15,9 @@ https://habrahabr.ru/post/337036/
 11) Поверхностное объяснение некоторых структур и алгоритмов: https://github.com/trekhleb/javascript-algorithms
 
 Решение:
+## 1
+
+Реализовать алгоритм быстрого возведения программно, протестировать его.
 
 ## 2 
 
@@ -23,4 +26,10 @@ https://habrahabr.ru/post/337036/
 [link](https://kukuruku.co/post/the-nth-fibonacci-number-in-olog-n/)
 
 ![](fib_log_n.png)
+
+## 3 
+
+Написать алгоритм генерации подстановок в лексикографическом порядке, оценить его сложность.
+
+[link](https://habr.com/ru/post/428552/)
 
