@@ -22,3 +22,5 @@ https://habrahabr.ru/post/337036/
 
 [link](https://kukuruku.co/post/the-nth-fibonacci-number-in-olog-n/)
 
+![](fib_log_n.png)
+
