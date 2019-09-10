@@ -51,7 +51,7 @@ int main() {
 
 [link](https://kukuruku.co/post/the-nth-fibonacci-number-in-olog-n/)
 
-![](fib_log_n.png)
+![](../fib_log_n.png)
 
 ## 3 
 
