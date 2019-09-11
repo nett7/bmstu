@@ -1,4 +1,4 @@
-![](Kuhnpoker.jpg)
+![](Kuhnpoker_.jpg)
 
 - [Kuhn poker](https://en.wikipedia.org/wiki/Kuhn_poker)
 
