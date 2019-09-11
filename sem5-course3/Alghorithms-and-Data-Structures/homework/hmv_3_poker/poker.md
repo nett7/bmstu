@@ -73,7 +73,7 @@ map combos to hex
 
 1.
 
-Green + yellow = 91 combo
+Green + yellow = 78 combo
 
 64 < 91 < 128 -> 7 bits
 
