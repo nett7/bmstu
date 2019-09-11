@@ -1,0 +1,3 @@
+- https://habr.com/ru/post/377027/
+- https://phys.org/news/2015-02-ultra-low-power-radio-transceiver-enables.html
+- https://www.nxp.com/products/no-longer-manufactured/nfmi-radio-for-wireless-audio-and-data-streaming:NXH2280UK
