@@ -1,3 +1,5 @@
+![](Kuhnpoker.jpg)
+
 - [Kuhn poker](https://en.wikipedia.org/wiki/Kuhn_poker)
 
 ```
