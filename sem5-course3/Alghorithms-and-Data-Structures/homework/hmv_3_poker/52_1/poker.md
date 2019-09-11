@@ -11,6 +11,6 @@ place bets similarly to a standard poker. If both players bet or both players pa
 the player with the higher card wins, otherwise, the betting player wins.
 ```
 
-tl;dr : poker with 1 card combo
+tl;dr : poker with 3 card and 1 card per player, so 3 combos
 
 Solution: 2 bits
