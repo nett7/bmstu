@@ -1,0 +1,1 @@
+- https://www.defcon.org/images/defcon-22/dc-22-presentations/Bugher/DEFCON-22-Grant-Bugher-Detecting-Bluetooth-Surveillance-Systems-Updated.pdf
