@@ -41,7 +41,7 @@ Example:
 ## attempt 1
 ### hand matrix
 
-![](hand_matrix.png)
+![](../hand_matrix.png)
 
 0.
 
