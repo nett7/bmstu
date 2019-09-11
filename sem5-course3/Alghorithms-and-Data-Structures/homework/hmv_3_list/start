@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "Hi"
+cmake . | lolcat -F 0.5
+make
+./flist
+echo "Am lazy and there are no tests yet" | lolcat -F 0.5
